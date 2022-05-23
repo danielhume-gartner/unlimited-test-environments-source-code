@@ -24,7 +24,7 @@ public class HelloWorldService {
 	
 
 	public String getHelloMessage() {
-		return "Spring boot says hello from a Docker container";
+		return "This web service is running from branch: main";
 	}
 
 }
