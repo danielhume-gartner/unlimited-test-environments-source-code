@@ -9,7 +9,7 @@ public class HelloWorldServiceTest {
 	@Test
 	public void expectedMessage() {
 		HelloWorldService helloWorldService = new HelloWorldService();
-		assertEquals("Expected correct message","Spring boot says hello from a Docker container deployed by codefresh",helloWorldService.getHelloMessage());
+		assertEquals("Expected correct message","This web service is running from branch: testbranch",helloWorldService.getHelloMessage());
 	}
 	
 }
