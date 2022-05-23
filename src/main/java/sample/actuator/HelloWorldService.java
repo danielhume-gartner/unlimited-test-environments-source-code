@@ -24,7 +24,7 @@ public class HelloWorldService {
 /* This comment does nothing! */	
 
 	public String getHelloMessage() {
-		return "Spring boot says hello from a Docker container deployed by codefresh";
+		return "This web service is running from branch: testbranch";
 	}
 
 }
